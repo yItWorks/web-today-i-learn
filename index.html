@@ -5,14 +5,15 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
     <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
-    <!-- <meta property="og:title" content="페이지 제목" /> -->
-    <!-- <meta property="og:description" content="페이지 설명" /> -->
-    <!-- <meta property="og:image" content="./images/thumbnail.jpg" /> -->
+    <meta property="og:title" content="로운의 Today I Learn" />
+    <meta property="og:description" content="로운 대한 소개와 오늘 배운 내용을 기록하는 장소" />
+    <meta property="og:image" content="./images/profile.jpg" />
 
-    <title>Today I Learn</title>
+    <title>로운의 Today I Learn</title>
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/index.js" defer></script>
   </head>
+
   <body>
     <!-- 상단 내비게이션 -->
     <nav class="top-nav">
@@ -29,12 +30,11 @@
     <section class="hero" id="about">
       <div class="profile-card">
         <div class="profile-image">
-          <!-- TODO: 프로필 이미지를 넣어주세요 -->
-          <!-- <img src="./images/profile.jpg" alt="프로필 사진" /> -->
+          <img src="./images/profile.jpg" alt="프로필 사진" />
         </div>
         <div class="profile-info">
-          <h1>닉네임</h1>
-          <p class="tagline">한 줄 소개를 작성해주세요.</p>
+          <h1>로운</h1>
+          <p class="tagline">저를 보면 인사해주세요!</p>
         </div>
       </div>
     </section>
@@ -42,31 +42,31 @@
     <main>
       <!-- 자기소개 -->
       <section class="content-section">
-        <h2>자기소개</h2>
-        <p>자기소개를 작성해주세요.</p>
         <!-- TODO: 소개 글 안에 블로그, GitHub 등 관련 링크를 <a> 태그로 연결하세요 -->
+        <h2>자기소개</h2>
+        <a href="https://github.com/yItWorks" target="_blank">GitHub</a>
+        <p>이로운 개발자가 되고 싶은 로운입니다. GitHub 맞팔은 언제나 환영입니다!</p>
       </section>
 
       <!-- 기본 정보 -->
       <section class="content-section" id="info">
         <h2>기본 정보</h2>
-        <!-- TODO: 자신의 기본 정보를 표(<table>)로 정리하세요 -->
         <table class="info-table">
           <tr>
             <th>이름</th>
-            <td></td>
+            <td>박준하</td>
           </tr>
           <tr>
             <th>MBTI</th>
-            <td></td>
+            <td>ESFJ</td>
           </tr>
           <tr>
             <th>취미</th>
-            <td></td>
+            <td>보드게임</td>
           </tr>
           <tr>
             <th>좋아하는 음식</th>
-            <td></td>
+            <td>🍖고기로 이루어진 모든 것</td>
           </tr>
         </table>
       </section>
@@ -74,33 +74,66 @@
       <!-- 나만의 갤러리 -->
       <section class="content-section" id="gallery">
         <h2>나만의 갤러리</h2>
-        <p class="section-desc">갤러리 부제를 작성해주세요. (예: 기억에 남는 여행지)</p>
+        <p class="section-desc">내가 좋아하는 것들</p>
         <div class="gallery-grid">
-          <!-- TODO: 9장의 이미지를 배치하세요 -->
-          <!--
-          <img src="./images/gallery-1.jpg" alt="갤러리 이미지 1" />
-          <img src="./images/gallery-2.jpg" alt="갤러리 이미지 2" />
-          ...
-          -->
+          <img src="./images/먼지.jpg" alt="갤러리 이미지 1" />
+          <img src="./images/마롱.jpg" alt="갤러리 이미지 2" />
+          <img src="./images/먼지와마롱.jpg" alt="갤러리 이미지 3" />
+          <img src="./images/아임더보스.jpg" alt="갤러리 이미지 4" />
+          <img src="./images/시계탑에흐른피.jpg" alt="갤러리 이미지 5" />
+          <img src="./images/언더다크의폭군들.jpg" alt="갤러리 이미지 6" />
+          <img src="./images/삼겹살.jpg" alt="갤러리 이미지 7" />
+          <img src="./images/치킨.jpg" alt="갤러리 이미지 8" />
+          <img src="./images/AMF.jpg" alt="갤러리 이미지 9" />
         </div>
       </section>
 
-      <!-- 나를 울린 인생 작품 -->
+      <!-- 나의 인생 작품 -->
       <section class="content-section" id="works">
-        <h2>나를 울린 인생 작품</h2>
-        <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
+        <h2>나의 인생 작품</h2>
+        <ul class="works-list">
           <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
-          <article class="work-card">
-            <div class="work-thumbnail">
-              <!-- 작품 이미지 -->
-            </div>
-            <div class="work-info">
-              <h3>작품 제목</h3>
-              <p>작품에 대한 설명을 작성해주세요.</p>
-            </div>
-          </article>
-        </div>
+          <li>
+            <article class="work-card">
+              <div class="work-thumbnail">
+                <iframe style="width:100%; height: 100%;"
+                      src="https://www.youtube.com/embed/BjJcYdEOI0k?si=1TKKr4VTcvvpoDmj" 
+                      title="YouTube video player" 
+                      frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                      referrerpolicy="strict-origin-when-cross-origin" 
+                      allowfullscreen>
+                </iframe>
+              </div>
+              <div class="work-info">
+                <h3>노트북</h3>
+                <p> 니콜라스 스파크스의 실화 바탕 소설을 원작으로 하며, 
+                  신분을 초월한 두 남녀의 지고지순한 사랑을 그린 작품이다.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="work-card">
+              <div class="work-thumbnail">
+                <iframe style="width:100%; height: 100%;" 
+                      src="https://www.youtube.com/embed/UcxcToFinko?si=4_AdtubvQuOpXMLz" 
+                      title="YouTube video player" 
+                      frameborder="0" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                      referrerpolicy="strict-origin-when-cross-origin" 
+                      allowfullscreen>
+                </iframe>
+              </div>
+              <div class="work-info">
+                <h3>오만과 편견</h3>
+                <p> 제인 오스틴의 소설을 원작으로 하며,
+                  남자 주인공의 '오만'과 여자 주인공의 '편견'이 부딪히며 시작되는 밀당 로맨스 영화이다. 
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
       </section>
 
       <!-- TIL (Today I Learned) -->
