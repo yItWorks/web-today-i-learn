@@ -133,8 +133,8 @@ main {
 }
 
 .work-thumbnail {
-  width: 140px;
-  height: 180px;
+  width: 200px;
+  height: 260px;
   background-color: #ddd;
   border-radius: 4px;
   flex-shrink: 0;
